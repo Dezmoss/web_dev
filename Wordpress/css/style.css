@@ -29,3 +29,117 @@
     line-height: 24px;
     margin-top: 10px;
 }
+
+.promo_title {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 41px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 53px;
+
+    color: #F9BF3B;
+}
+
+.promo_simple {
+    position: relative;
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15px;
+
+    color: #FFFFFF;
+}
+
+.promo_simple::before {
+    content: '';
+    position: absolute;
+    width: 292px;
+    height: 2px;
+    left: 0;
+    top: 43px;
+    background: #FFFFFF;
+}
+
+.promo_simple::after {
+    content: '';
+    position: absolute;
+    width: 292px;
+    height: 2px;
+    right: 0;
+    top: 43px;
+    background: #FFFFFF;
+}
+
+.promo_correct {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 41px;
+    line-height: 41px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 24px;
+
+    color: #F9BF3B;
+}
+
+.promo_text {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    margin-top: 24px;
+
+    color: #FFFFFF;
+}
+
+.promo_text span {
+    font-family: 'Roboto';
+    font-weight: 700;
+
+    color: #F9BF3B;
+}
+
+.promo_register_button {
+    width: 313px;
+    height: 72px;
+    display: block;
+
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    border: 0;
+    margin: 72px auto 0;
+
+    font-family: 'Roboto Condensed';
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+}
+
+.promo_learn_more {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 68px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.promo_down_arrow {
+    display: block;
+    margin: 7px auto 0;
+}
