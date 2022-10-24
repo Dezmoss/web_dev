@@ -208,7 +208,7 @@
 
 .optimization {
     min-height: 547px;
-    padding: 108px 0 74px;
+    padding: 108px 0 57px;
 }
 
 .optimization .container {
@@ -410,4 +410,34 @@
     text-align: center;
 
     color: #4A4A4A;
+}
+
+.footer {
+    min-height: 169px;
+    padding: 57px 0 69px;
+    background: #1A1A1A;
+}
+
+.footer_wrapper {
+    width: 407px;
+    height: 43px;
+    margin: 0 auto;
+
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #888888;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_link {
+    color: #888888;
+
 }
